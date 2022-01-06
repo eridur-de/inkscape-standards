@@ -16,7 +16,7 @@ The desired usage for colors
 |red       | eri4     | vector engraving         | regular segments      |
 |magenta   | eri5     | vector engraving         | slow segments         |
 |turquoise | eri6     | vector cutting           | slow segments         |
-|yellow    | eri7     | <not yet used>           | <reserved>            |
+|yellow    | eri7     | -- not yet used --       | -- reserved --        |
 
 ### The CSS for strokes
 ```
