@@ -4,7 +4,9 @@ This repo contains some useful files like templates and color palettes to work w
 
 ## Color scheme
 Recommended color in case we use svg:style element together with "class" attribute to style an element
-'''
+
+## Strokes
+```
 .eri1 {
   fill:none;
   fill-opacity:1;
@@ -68,4 +70,4 @@ Recommended color in case we use svg:style element together with "class" attribu
   stroke-linecap:round;
   stroke-linejoin:round;
 }
-'''
+```
