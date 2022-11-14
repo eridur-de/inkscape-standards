@@ -7,7 +7,8 @@
    viewBox="0 0 812 508"
    version="1.1"
    id="svg2051"
-   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   sodipodi:docname="Epilog Fusion Pro 32 - mm units.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +27,18 @@
      showgrid="false"
      inkscape:showpageshadow="false"
      inkscape:snap-tangential="true"
-     inkscape:snap-perpendicular="true" />
+     inkscape:snap-perpendicular="true"
+     inkscape:deskcolor="#ffffff"
+     inkscape:lockguides="true"
+     inkscape:zoom="0.22893357"
+     inkscape:cx="1006.8423"
+     inkscape:cy="1196.8538"
+     inkscape:window-width="1920"
+     inkscape:window-height="1027"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
   <defs
      id="defs2048" />
   <g
@@ -40,9 +52,4 @@
          rdf:about="" />
     </rdf:RDF>
   </metadata>
-  <inkscape:templateinfo>
-    <inkscape:name>Epilog Fusion Pro 32 / mm units</inkscape:name>
-    <inkscape:author>Mario Voigt / eridur</inkscape:author>
-    <inkscape:date>2022-01-04</inkscape:date>
-  </inkscape:templateinfo>
 </svg>

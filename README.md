@@ -8,15 +8,15 @@ Recommended color in case we use svg:style element together with "class" attribu
 ### Useful mapping
 The desired usage for colors
 
-| Color    | CSS Code | Cutting or Engraving     | What type of segments |
-|----------|----------|--------------------------|-----------------------|
-|black     | eri1     | vector cutting (general) | regular segments      |
-|blue      | eri2     | vector cutting (inside)  | regular segments      |
-|green     | eri3     | vector cutting (outside) | regular segments      |
-|red       | eri4     | vector engraving         | regular segments      |
-|magenta   | eri5     | vector engraving         | slow segments         |
-|turquoise | eri6     | vector cutting           | slow segments         |
-|yellow    | eri7     | -- not yet used --       | -- reserved --        |
+| Color  | CSS Code | Cutting or Engraving     | What type of segments |
+|--------|----------|--------------------------|-----------------------|
+|black   | eri1     | vector cutting (general) | regular segments      |
+|blue    | eri2     | vector cutting (inside)  | regular segments      |
+|green   | eri3     | vector cutting (outside) | regular segments      |
+|red     | eri4     | vector engraving         | regular segments      |
+|magenta | eri5     | vector engraving         | slow segments         |
+|cyan    | eri6     | vector cutting           | slow segments         |
+|yellow  | eri7     | -- not yet used --       | -- reserved --        |
 
 ### The CSS for strokes
 ```
@@ -68,7 +68,7 @@ The desired usage for colors
 .eri6 {
   fill:none;
   fill-opacity:1;
-  stroke:#00FFFF; /*turquoise*/
+  stroke:#00FFFF; /*cyan*/
   stroke-opacity:1;
   stroke-width:0.26458333; /*1px*/
   stroke-linecap:round;
