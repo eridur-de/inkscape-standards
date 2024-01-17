@@ -1,6 +1,10 @@
 # inkscape-standards
 
-This repo contains some useful files like templates and color palettes to work with lasercut files.
+This repo contains some useful files like templates and color palettes to work with lasercut files. Files have to go Inkscape's user directory:
+
+```
+cd ~/.config/inkscape/
+```
 
 ## Color scheme
 Recommended color in case we use svg:style element together with "class" attribute to style an element
