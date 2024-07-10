@@ -101,6 +101,7 @@ chown -H root:staff fonts/
 ```
 
 # Useful settings in preferences.xml
+configurations for Bounding Box, Simplify Path Treshold, Node Tool, Python Interpreter (extensions)
 ```
 vim ~/.config/inkscape/preferences.xml
 ```
