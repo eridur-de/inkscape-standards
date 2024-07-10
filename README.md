@@ -99,3 +99,44 @@ rmdir fonts #must be empty
 ln -sf ~/Seafile/horizon.somebody.com/fonts fonts
 chown -H root:staff fonts/
 ```
+
+# Useful settings in preferences.xml
+```
+vim ~/.config/inkscape/preferences.xml
+```
+```
+  <group
+     id="extensions"
+     python-interpreter="/home/tomate/.config/inkscape/extensions/mightyscape-1.2/venv/bin/python3
+```
+```
+  <group
+     id="tools"
+     bounding_box="1">
+```
+```
+    <eventcontext
+       id="nodes"
+       selcue="1"
+       gradientdrag="1"
+       pathflash_enabled="1"
+       pathflash_unselected="0"
+       pathflash_timeout="500"
+       show_handles="1"
+       show_outline="1"
+       sculpting_profile="1"
+       single_node_transform_handles="0"
+       show_transform_handles="1"
+       live_outline="1"
+       live_objects="1"
+       show_helperpath="0"
+       edit_clipping_paths="1"
+       edit_masks="1"
+       pathflash_selected="1"
+       show_path_direction="1" />
+```
+```
+    <group
+       id="simplifythreshold"
+       value="0.0001" />
+```
