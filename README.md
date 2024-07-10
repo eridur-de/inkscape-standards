@@ -88,3 +88,13 @@ The desired usage for colors
   stroke-linejoin:round;
 }
 ```
+
+# HowTo use another directory as user's font directory
+Instead of installing each font we need to the default directory, we just can use a symbolic link to a shared dir, which is synced over cloud. This also omits to copy the font files to Inkscape dir. This is useful for a multi computer environment, where every computer should have the same set of recent files. We use Seafile in this example:
+```
+cd /usr/local/share
+sudo su
+rmdir fonts #must be empty
+ln -sf ~/Seafile/horizon.somebody.com/fonts fonts
+chown -H root:staff fonts/
+```
