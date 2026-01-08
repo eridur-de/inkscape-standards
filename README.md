@@ -94,10 +94,9 @@ Instead of installing each font we need to the default directory, we just can us
 ```
 #on Kubuntu/Ubuntu we can do:
 cd /usr/local/share
-sudo su
-rmdir fonts #must be empty
-ln -sf ~/Seafile/horizon.somebody.com/fonts fonts
-chown -H root:staff fonts/
+sudo rmdir fonts #must be empty
+sudo ln -sf ~/Seafile/horizon.somebody.com/fonts fonts
+sudo chown -H root:staff fonts/
 ```
 
 # Useful settings in preferences.xml
